@@ -11,11 +11,11 @@ import Foundation
 // modified from : https://gist.github.com/kumo/a8e1cb1f4b7cff1548c7
 func toRoman(_ number: Int) -> String {
 
-    if (number == 0) {
+    if number == 0 {
         return ""
     }
 
-    if (number < 0) {
+    if number < 0 {
         return "-" + toRoman(-number)
     }
 
@@ -30,11 +30,8 @@ func toRoman(_ number: Int) -> String {
 
         let div = startingValue / arabicValue
 
-        if (div > 0)
-        {
-            for _ in 0..<div
-            {
-                //println("Should add \(romanChar) to string")
+        if div > 0 {
+            for _ in 0..<div {
                 romanValue += romanChar
             }
 

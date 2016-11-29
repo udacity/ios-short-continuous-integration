@@ -14,8 +14,8 @@ class ViewController: UIViewController {
     
     // MARK: Properties
     
-    var total: Int = 0
-    var signOfNextOperation: Int = 1;
+    var total = 0
+    var signOfNextOperation = 1
 
     // MARK: Outlets
     
@@ -32,7 +32,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var buttonClear: UIButton!
     
     func update() {
-        //resultLabel.text = String(total)
         resultLabel.text = toRoman(total)
     }
 
