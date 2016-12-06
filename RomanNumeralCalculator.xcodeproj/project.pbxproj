@@ -22,7 +22,6 @@
 		A955D2B01DEDDE6100018872 /* RomanNumeralCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A955D2AF1DEDDE6100018872 /* RomanNumeralCalculatorUITests.swift */; };
 		AA49946F3170D758EAA42E88 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 539362157D812D225FFC2704 /* CoreVideo.framework */; };
 		B89D37FCEE137C0A4A033DB6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2074ABAFCD752C9366216FB5 /* QuartzCore.framework */; };
-		EF14943B7535A230677C225A /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA98DF8C06E63448001E4B42 /* BuddyBuildSDK.framework */; };
 		F7F17AD6D6A1500A63964B76 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B04790C1F43C99942EF78AD /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +47,6 @@
 		2074ABAFCD752C9366216FB5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		2B04790C1F43C99942EF78AD /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		539362157D812D225FFC2704 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
-		811A920AE226D1F1AA280C32 /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		835AEC8B1D80DD800046555C /* RomanNumeralCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomanNumeralCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		835AEC8E1D80DD800046555C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		835AEC901D80DD800046555C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF14943B7535A230677C225A /* BuddyBuildSDK.framework in Frameworks */,
 				F7F17AD6D6A1500A63964B76 /* AssetsLibrary.framework in Frameworks */,
 				11E27AF998774094A890C3F0 /* CoreText.framework in Frameworks */,
 				2B0E7E5FE55E749AD6453531 /* CoreTelephony.framework in Frameworks */,
@@ -112,7 +109,6 @@
 				A955D2AE1DEDDE6100018872 /* RomanNumeralCalculatorUITests */,
 				835AEC8C1D80DD800046555C /* Products */,
 				84C013C0B11AB9F95B36881F /* Frameworks */,
-				811A920AE226D1F1AA280C32 /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -473,7 +469,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.udacity.RomanNumeralCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -494,7 +490,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.udacity.RomanNumeralCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -595,6 +591,7 @@
 				A955D2A81DEDDD3700018872 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A955D2B41DEDDE6100018872 /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +600,7 @@
 				A955D2B61DEDDE6100018872 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

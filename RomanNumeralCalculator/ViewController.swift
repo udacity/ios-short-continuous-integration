@@ -31,8 +31,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var buttonClear: UIButton!
     
+    // MARK: Update Total 
+    
     func update() {
-        //resultLabel.text = String(total)
         resultLabel.text = toRoman(total)
     }
 
