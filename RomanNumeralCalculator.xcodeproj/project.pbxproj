@@ -65,7 +65,6 @@
 		C0CC85E3DFBD26D5B41E1AAE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C58B207E394C1A859B2CEC0A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		EC448A2D5D7B5C1D22AE0C02 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		FA98DF8C06E63448001E4B42 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +138,6 @@
 		84C013C0B11AB9F95B36881F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FA98DF8C06E63448001E4B42 /* BuddyBuildSDK.framework */,
 				2B04790C1F43C99942EF78AD /* AssetsLibrary.framework */,
 				A7717DCF720ADA38CF58AE5F /* CoreText.framework */,
 				1A197A6FFC421852069A123F /* CoreTelephony.framework */,
