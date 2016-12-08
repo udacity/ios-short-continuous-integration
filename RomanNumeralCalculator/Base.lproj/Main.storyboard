@@ -140,7 +140,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MDp-wd-HSs">
                                                 <rect key="frame" x="310.66666666666674" y="0.0" width="103.33333333333331" height="118"/>
-                                                <color key="backgroundColor" red="0.99766790866851807" green="0.87690484523773193" blue="0.087918616831302643" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.92549019607843142" green="0.71372549019607845" blue="0.24705882352941178" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
                                                 <state key="normal" title="Clear"/>
                                                 <connections>
