@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A955D29E1DEDDD3700018872"
+               BlueprintIdentifier = "45D979762ACB72E50088A379"
                BuildableName = "RomanNumeralCalculatorTests.xctest"
                BlueprintName = "RomanNumeralCalculatorTests"
                ReferencedContainer = "container:RomanNumeralCalculator.xcodeproj">
@@ -52,7 +52,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A955D2AC1DEDDE6100018872"
+               BlueprintIdentifier = "45D979A12ACB779C0088A379"
                BuildableName = "RomanNumeralCalculatorUITests.xctest"
                BlueprintName = "RomanNumeralCalculatorUITests"
                ReferencedContainer = "container:RomanNumeralCalculator.xcodeproj">
